@@ -18,6 +18,7 @@ accelerate launch train.py \
   --attn-num-heads=16 \
   --patch-size=2 \
   --attn-type="sta2d_attn" \
+  --adam-weight-decay=0.05 \
   --batch-size=128 \
   --warmup-steps=10000 \
   --min-lr=5e-5 \
